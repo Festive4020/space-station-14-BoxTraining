@@ -1,0 +1,49 @@
+﻿# Command
+- type: loadoutGroup
+  id: CaptainUberHead
+  name: loadout-group-captain-head
+  minLimit: 0
+  loadouts:
+      - CaptainHead
+      - CaptainCap
+
+- type: loadoutGroup
+  id: CaptainUberJumpsuit
+  name: loadout-group-captain-jumpsuit
+  loadouts:
+      - CaptainJumpsuit
+      - CaptainJumpskirt
+      - CaptainFormalSuit
+      - CaptainFormalSkirt
+
+- type: loadoutGroup
+  id: CaptainUberNeck
+  name: loadout-group-captain-neck
+  minLimit: 0
+  loadouts:
+      - CaptainCloak
+      - CaptainCloakFormal
+      - CaptainMantle
+
+- type: loadoutGroup
+  id: CaptainUberBackpack
+  name: loadout-group-captain-backpack
+  loadouts:
+      - CaptainBackpack
+      - CaptainSatchel
+      - CaptainDuffel
+      - ClothingBackpackSatchelAdmin
+
+- type: loadoutGroup
+  id: CaptainUberOuterClothing
+  name: loadout-group-captain-outerclothing
+  loadouts:
+      - CaptainOuterClothing
+      - CaptainWintercoat
+
+- type: loadoutGroup
+  id: CaptainUberJobTrinkets
+  name: loadout-group-jobtrinkets
+  minLimit: 0
+  loadouts:
+      - LizardPlushieCaptain
