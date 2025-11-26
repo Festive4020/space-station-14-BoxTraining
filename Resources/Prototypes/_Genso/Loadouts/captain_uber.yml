@@ -1,0 +1,29 @@
+# For mantles
+- type: loadoutEffectGroup
+  id: MasterCapUber
+  Parent: MasterCap
+  effects:
+  - !type:JobRequirementLoadoutEffect
+    requirement:
+      !type:RoleTimeRequirement
+      role: JobCaptain
+      time: 40h
+
+# Back
+- type: loadout
+  id: CaptainUberBackpack
+  Parent: CaptainBackpack
+  equipment:
+    back: ClothingBackpackSatchelAdmin
+
+- type: loadout
+  id: CaptainUberSatchel
+  Parent: CaptainSatchel
+  equipment:
+    back: ClothingBackpackSatchelAdmin
+
+- type: loadout
+  id: CaptainUberDuffel
+  Parent: CaptainDuffel
+  equipment:
+    back: ClothingBackpackSatchelAdmin
