@@ -32,7 +32,6 @@
       - CaptainBackpack
       - CaptainSatchel
       - CaptainDuffel
-      - ClothingBackpackSatchelAdmin
 
 - type: loadoutGroup
   id: CaptainUberOuterClothing
