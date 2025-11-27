@@ -68,19 +68,21 @@
 # Back
 - type: loadout
   id: CaptainUberBackpack
-  Parent: CaptainBackpack
   equipment:
-    back: ClothingBackpackSatchelAdmin
+    back: ClothingBackpackCaptain
 
 - type: loadout
   id: CaptainUberSatchel
-  Parent: CaptainSatchel
   equipment:
-    back: ClothingBackpackSatchelAdmin
+    back: ClothingBackpackSatchelCaptain
 
 - type: loadout
   id: CaptainUberDuffel
-  Parent: CaptainDuffel
+  equipment:
+    back: ClothingBackpackDuffelCaptain
+
+- type: loadout
+  id: CaptainUberSatchelHolding
   equipment:
     back: ClothingBackpackSatchelAdmin
 
