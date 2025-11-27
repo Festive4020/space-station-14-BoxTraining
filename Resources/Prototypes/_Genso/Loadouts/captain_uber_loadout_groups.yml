@@ -1,7 +1,7 @@
 ﻿# Command
 - type: loadoutGroup
   id: CaptainUberHead
-  name: loadout-group-captain-head
+  name: loadout-group-captain-uber-head
   minLimit: 0
   loadouts:
       - CaptainHead
@@ -9,7 +9,7 @@
 
 - type: loadoutGroup
   id: CaptainUberJumpsuit
-  name: loadout-group-captain-jumpsuit
+  name: loadout-group-captain-uber-jumpsuit
   loadouts:
       - CaptainJumpsuit
       - CaptainJumpskirt
@@ -18,7 +18,7 @@
 
 - type: loadoutGroup
   id: CaptainUberNeck
-  name: loadout-group-captain-neck
+  name: loadout-group-captain-uber-neck
   minLimit: 0
   loadouts:
       - CaptainCloak
@@ -27,15 +27,16 @@
 
 - type: loadoutGroup
   id: CaptainUberBackpack
-  name: loadout-group-captain-backpack
+  name: loadout-group-captain-uber-backpack
   loadouts:
-      - CaptainBackpack
-      - CaptainSatchel
-      - CaptainDuffel
+      - CaptainUberBackpack
+      - CaptainUberSatchel
+      - CaptainUberDuffel
+      - CaptainUberSatchelHolding
 
 - type: loadoutGroup
   id: CaptainUberOuterClothing
-  name: loadout-group-captain-outerclothing
+  name: loadout-group-captain-uber-outerclothing
   loadouts:
       - CaptainOuterClothing
       - CaptainWintercoat
