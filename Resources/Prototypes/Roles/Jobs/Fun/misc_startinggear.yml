@@ -146,7 +146,7 @@
 
 # Aghost
 - type: startingGear
-  id: MobAghostGear
+  id: MobAghostGearOld #Edited by Genso-Organization Branch to use version in _genso prototypes folder instead, and renamed the id here.
   equipment:
     back: ClothingBackpackSatchelAdmin
     id: AdminPDA
