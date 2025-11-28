@@ -58,7 +58,7 @@
 
 - type: chameleonOutfit
   id: CaptainUberChameleonOutfit
-  job: CaptainUberChameleon
+  job: CaptainUber
   hasMindShield: true
   equipment:
     head: ClothingHeadHatCapcap
