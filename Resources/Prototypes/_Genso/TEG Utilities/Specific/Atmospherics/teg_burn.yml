@@ -55,7 +55,6 @@
     filterGases:
     - CarbonDioxide
     - Tritium
-    - WaterVapor
     - Frezon
 
 - type: entity
