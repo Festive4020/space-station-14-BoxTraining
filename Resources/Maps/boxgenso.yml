@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 11/28/2025 07:28:03
-  entityCount: 29038
+  time: 11/28/2025 23:12:41
+  entityCount: 29047
 maps:
 - 780
 grids:
@@ -92200,8 +92200,8 @@ entities:
       pos: 15.5,-72.5
       parent: 8364
     - type: GasMixer
-      inletTwoConcentration: 0.98
-      inletOneConcentration: 0.02
+      inletTwoConcentration: 0.99
+      inletOneConcentration: 0.01
       targetPressure: 4500
     - type: AtmosPipeColor
       color: '#947507FF'
@@ -94267,6 +94267,14 @@ entities:
       parent: 8364
     - type: AtmosPipeColor
       color: '#990000FF'
+  - uid: 28803
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 29.5,-73.5
+      parent: 8364
+    - type: AtmosPipeColor
+      color: '#03FCD3FF'
   - uid: 28806
     components:
     - type: Transform
@@ -117511,13 +117519,6 @@ entities:
       parent: 8364
     - type: AtmosPipeColor
       color: '#990000FF'
-  - uid: 28803
-    components:
-    - type: Transform
-      pos: 29.5,-73.5
-      parent: 8364
-    - type: AtmosPipeColor
-      color: '#03FCD3FF'
   - uid: 28820
     components:
     - type: Transform
@@ -122510,6 +122511,8 @@ entities:
     - type: Transform
       pos: 14.5,-80.5
       parent: 8364
+    - type: GasVolumePump
+      transferRate: 100
     - type: AtmosPipeColor
       color: '#947507FF'
   - uid: 26124
@@ -132051,7 +132054,7 @@ entities:
       pos: 10.5,-22.5
       parent: 8364
     - type: Door
-      secondsUntilStateChange: -7312.17
+      secondsUntilStateChange: -8219.737
       state: Closing
   - uid: 8899
     components:
@@ -132329,6 +132332,54 @@ entities:
     components:
     - type: Transform
       pos: -13.487051,-35.479218
+      parent: 8364
+- proto: Igniter
+  entities:
+  - uid: 29040
+    components:
+    - type: Transform
+      pos: 13.922069,-86.23901
+      parent: 8364
+    - type: DeviceLinkSink
+      invokeCounter: 1
+  - uid: 29041
+    components:
+    - type: Transform
+      pos: 14.846541,-85.780685
+      parent: 8364
+    - type: DeviceLinkSink
+      invokeCounter: 1
+  - uid: 29042
+    components:
+    - type: Transform
+      pos: 14.877791,-87.20776
+      parent: 8364
+    - type: DeviceLinkSink
+      invokeCounter: 1
+  - uid: 29043
+    components:
+    - type: Transform
+      pos: 13.952999,-85.82255
+      parent: 8364
+  - uid: 29044
+    components:
+    - type: Transform
+      pos: 15.307166,-85.92671
+      parent: 8364
+  - uid: 29045
+    components:
+    - type: Transform
+      pos: 15.192582,-86.80171
+      parent: 8364
+  - uid: 29046
+    components:
+    - type: Transform
+      pos: 15.286332,-87.21838
+      parent: 8364
+  - uid: 29047
+    components:
+    - type: Transform
+      pos: 13.921749,-87.2288
       parent: 8364
 - proto: IngotGold
   entities:
@@ -149382,6 +149433,39 @@ entities:
     - type: Transform
       pos: -5.505559,9.708565
       parent: 8364
+- proto: RemoteSignallerAdvanced
+  entities:
+  - uid: 28987
+    components:
+    - type: Transform
+      pos: 14.810836,-79.95791
+      parent: 8364
+    - type: DeviceLinkSource
+      linkedPorts:
+        29041:
+        - - Pressed
+          - Trigger
+        29040:
+        - - Pressed
+          - Trigger
+        29042:
+        - - Pressed
+          - Trigger
+        29047:
+        - - Pressed
+          - Trigger
+        29043:
+        - - Pressed
+          - Trigger
+        29044:
+        - - Pressed
+          - Trigger
+        29046:
+        - - Pressed
+          - Trigger
+        29045:
+        - - Pressed
+          - Trigger
 - proto: ResearchAndDevelopmentServer
   entities:
   - uid: 21276
