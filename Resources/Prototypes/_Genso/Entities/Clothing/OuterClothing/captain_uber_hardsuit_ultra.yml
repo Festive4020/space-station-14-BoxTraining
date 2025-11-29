@@ -2,7 +2,7 @@
 - type: entity
   parent: [ClothingOuterHardsuitCap, BaseCommandContraband]
   id: ClothingOuterHardsuitCapUber
-  name: captain's armored spacesuit
+  name: uber captain's armored spacesuit
   description: A formal armored spacesuit, made for the station's uber captain.
   components:
   - type: Sprite

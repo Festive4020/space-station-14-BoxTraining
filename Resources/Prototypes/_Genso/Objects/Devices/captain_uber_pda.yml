@@ -13,7 +13,7 @@
         tags:
         - Write
   - type: PointLight
-      enabled: true
+      enabled: false
       radius: 5
       falloff: 3
       softness: 5
