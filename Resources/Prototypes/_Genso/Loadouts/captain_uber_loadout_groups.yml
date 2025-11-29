@@ -40,6 +40,7 @@
   loadouts:
       - CaptainOuterClothing
       - CaptainWintercoat
+      - CaptainUberHardsuit
 
 - type: loadoutGroup
   id: CaptainUberJobTrinkets

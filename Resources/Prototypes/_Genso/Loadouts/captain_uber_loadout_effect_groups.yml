@@ -96,3 +96,9 @@
   id: CaptainUberWintercoat
   equipment:
     outerClothing: ClothingOuterWinterCap
+
+- type: loadout
+  id: CaptainUberHardsuit
+  equipment:
+    outerClothing: ClothingOuterHardsuitCap
+

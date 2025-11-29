@@ -34,7 +34,7 @@
     id: CaptainUberPDA
     ears: ClothingHeadsetAltCommand
     belt: ClothingBeltChiefEngineerFilled
-    suitstorage: JetpackCaptainFilled
+    suitstorage: JetpackUltraCaptainUberFilled
     pocket1: PowerCellMicroreactor
     pocket2: GasAnalyzer
   storage:
