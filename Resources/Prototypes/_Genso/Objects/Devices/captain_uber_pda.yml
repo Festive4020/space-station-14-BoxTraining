@@ -12,6 +12,12 @@
       whitelist:
         tags:
         - Write
+  - type: PointLight
+      enabled: true
+      radius: 5
+      falloff: 3
+      softness: 5
+      autoRot: true
   - type: Appearance
     appearanceDataInit:
       enum.PdaVisuals.PdaType:
