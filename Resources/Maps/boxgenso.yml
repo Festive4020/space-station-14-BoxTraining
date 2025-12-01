@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 11/28/2025 23:12:41
-  entityCount: 29047
+  time: 12/01/2025 03:24:13
+  entityCount: 29058
 maps:
 - 780
 grids:
@@ -22215,6 +22215,21 @@ entities:
     - type: Transform
       pos: 74.27338,-18.287746
       parent: 8364
+  - uid: 29053
+    components:
+    - type: Transform
+      pos: 43.761585,-2.423965
+      parent: 8364
+  - uid: 29054
+    components:
+    - type: Transform
+      pos: 44.49075,-2.4031315
+      parent: 8364
+  - uid: 29055
+    components:
+    - type: Transform
+      pos: 45.324085,-2.3822982
+      parent: 8364
 - proto: Bed
   entities:
   - uid: 70
@@ -23052,6 +23067,26 @@ entities:
     - type: Transform
       pos: -48.5,-16.5
       parent: 8364
+- proto: BorgDropper
+  entities:
+  - uid: 29056
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 44.855335,-2.4475527
+      parent: 8364
+  - uid: 29057
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 44.0845,-2.437136
+      parent: 8364
+  - uid: 29058
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 45.67825,-2.4267192
+      parent: 8364
 - proto: BoxBeaker
   entities:
   - uid: 18896
@@ -23542,11 +23577,6 @@ entities:
     components:
     - type: Transform
       pos: 48.5,-9.5
-      parent: 8364
-  - uid: 10719
-    components:
-    - type: Transform
-      pos: 43.5,-2.5
       parent: 8364
   - uid: 13262
     components:
@@ -70450,6 +70480,11 @@ entities:
     - type: Transform
       pos: 19.5,-16.5
       parent: 8364
+  - uid: 10626
+    components:
+    - type: Transform
+      pos: 46.5,-2.5
+      parent: 8364
   - uid: 18768
     components:
     - type: Transform
@@ -73079,6 +73114,11 @@ entities:
       parent: 8364
 - proto: ClothingEyesGlassesChemical
   entities:
+  - uid: 10623
+    components:
+    - type: Transform
+      pos: 43.43926,-2.215476
+      parent: 8364
   - uid: 29014
     components:
     - type: Transform
@@ -73354,13 +73394,6 @@ entities:
     components:
     - type: Transform
       pos: 58.25015,8.749944
-      parent: 8364
-- proto: ClothingHeadHatPumpkin
-  entities:
-  - uid: 5188
-    components:
-    - type: Transform
-      pos: 42.526115,-2.6703405
       parent: 8364
 - proto: ClothingHeadHatTophat
   entities:
@@ -75036,6 +75069,9 @@ entities:
     - type: Transform
       pos: -25.5,-36.5
       parent: 8364
+    - type: AccessReader
+      accessListsOriginal:
+      - - Salvage
 - proto: ComputerSalvageJobBoard
   entities:
   - uid: 28412
@@ -92027,6 +92063,22 @@ entities:
       rot: 1.5707963267948966 rad
       pos: 11.519723,-77.68871
       parent: 8364
+- proto: Fulton
+  entities:
+  - uid: 29049
+    components:
+    - type: Transform
+      pos: -23.517155,-38.38054
+      parent: 8364
+- proto: FultonBeacon
+  entities:
+  - uid: 29048
+    components:
+    - type: Transform
+      pos: -25.475487,-34.401375
+      parent: 8364
+    - type: Foldable
+      folded: False
 - proto: GameMasterCircuitBoard
   entities:
   - uid: 27917
@@ -132054,7 +132106,7 @@ entities:
       pos: 10.5,-22.5
       parent: 8364
     - type: Door
-      secondsUntilStateChange: -8219.737
+      secondsUntilStateChange: -11026.05
       state: Closing
   - uid: 8899
     components:
@@ -132261,25 +132313,10 @@ entities:
     - type: Transform
       pos: 42.5,-3.5
       parent: 8364
-  - uid: 10623
-    components:
-    - type: Transform
-      pos: 44.5,-2.5
-      parent: 8364
-  - uid: 10624
-    components:
-    - type: Transform
-      pos: 46.5,-2.5
-      parent: 8364
   - uid: 10625
     components:
     - type: Transform
       pos: 47.5,-2.5
-      parent: 8364
-  - uid: 10626
-    components:
-    - type: Transform
-      pos: 45.5,-2.5
       parent: 8364
   - uid: 10627
     components:
@@ -135699,6 +135736,23 @@ entities:
     components:
     - type: Transform
       pos: 53.5,-22.5
+      parent: 8364
+- proto: OreBagOfHolding
+  entities:
+  - uid: 29050
+    components:
+    - type: Transform
+      pos: -26.631737,-29.526375
+      parent: 8364
+  - uid: 29051
+    components:
+    - type: Transform
+      pos: -26.642155,-29.515959
+      parent: 8364
+  - uid: 29052
+    components:
+    - type: Transform
+      pos: -26.62132,-29.495125
       parent: 8364
 - proto: OreProcessor
   entities:
@@ -161460,6 +161514,11 @@ entities:
     - type: Transform
       pos: 68.5,-55.5
       parent: 8364
+  - uid: 5188
+    components:
+    - type: Transform
+      pos: 43.5,-2.5
+      parent: 8364
   - uid: 5637
     components:
     - type: Transform
@@ -161469,6 +161528,16 @@ entities:
     components:
     - type: Transform
       pos: 74.5,-35.5
+      parent: 8364
+  - uid: 10624
+    components:
+    - type: Transform
+      pos: 45.5,-2.5
+      parent: 8364
+  - uid: 10719
+    components:
+    - type: Transform
+      pos: 44.5,-2.5
       parent: 8364
   - uid: 21714
     components:
