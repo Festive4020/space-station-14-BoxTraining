@@ -35,7 +35,7 @@
     ears: ClothingHeadsetAltCommand
     belt: ClothingBeltChiefEngineerFilled
     suitstorage: JetpackUltraCaptainUberFilled
-    pocket1:
+    pocket1: PowerCellMicroreactor
     pocket2: GasAnalyzer
   storage:
     back:

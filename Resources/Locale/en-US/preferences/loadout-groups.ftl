@@ -21,11 +21,11 @@ loadout-group-pocket-tank-double = Species-specific double emergency tank in poc
 loadout-group-survival-mime = Mime Survival Box
 
 # Command
-loadout-group-captain-uber-head = Uber Captain head
-loadout-group-captain-uber-jumpsuit = Uber Captain jumpsuit
-loadout-group-captain-uber-neck = Uber Captain neck
-loadout-group-captain-uber-backpack = Uber Captain backpack
-loadout-group-captain-uber-outerclothing = Uber Captain outer clothing
+loadout-group-captain-uber-head = uber captain head
+loadout-group-captain-uber-jumpsuit = uber captain jumpsuit
+loadout-group-captain-uber-neck = uber captain neck
+loadout-group-captain-uber-backpack = uber captain backpack
+loadout-group-captain-uber-outerclothing = uber captain outer clothing
 
 loadout-group-captain-head = Captain head
 loadout-group-captain-jumpsuit = Captain jumpsuit
