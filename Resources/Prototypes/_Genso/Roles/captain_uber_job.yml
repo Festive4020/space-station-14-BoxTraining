@@ -27,15 +27,15 @@
 - type: startingGear
   id: CaptainUberGear
   equipment:
-    shoes: ClothingShoesBootsSpeed
-    eyes: ClothingEyesGlassesCommand
+    shoes: ClothingShoesBootsLaceup
+    eyes: ClothingEyesGlassesChemical
     mask: ClothingMaskGasCaptain
     gloves: ClothingHandsGlovesCaptain
     id: CaptainUberPDA
     ears: ClothingHeadsetAltCommand
     belt: ClothingBeltChiefEngineerFilled
     suitstorage: JetpackUltraCaptainUberFilled
-    pocket1: PowerCellMicroreactor
+    pocket1:
     pocket2: GasAnalyzer
   storage:
     back:
@@ -52,8 +52,16 @@
     - CaptainIDCard
     - CaptainIDCard
     - ClothingShoesBootsLaceup
-    - DrinkFlask
     - Flash
+    - DrinkFlask
+    - PowerCellMicroreactor
+    - PowerDrill
+    - JawsOfLife
+    - WelderExperimental
+    - Multitool
+    - HolofanProjector
+    - GasAnalyzer
+    - trayScanner
     # - StationCharter
 
 - type: chameleonOutfit
