@@ -4,8 +4,8 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 12/01/2025 03:24:13
-  entityCount: 29058
+  time: 12/01/2025 04:07:59
+  entityCount: 29067
 maps:
 - 780
 grids:
@@ -9511,7 +9511,8 @@ entities:
           9,-3:
             0: 65407
           9,-2:
-            0: 65535
+            0: 57343
+            5: 8192
           9,-5:
             0: 61166
           10,-4:
@@ -9522,8 +9523,8 @@ entities:
             0: 65533
           10,-5:
             0: 60095
-            5: 64
-            6: 1024
+            6: 64
+            7: 1024
           11,-4:
             0: 65521
           11,-3:
@@ -9814,7 +9815,7 @@ entities:
             1: 192
             3: 49152
           3,-17:
-            7: 30576
+            8: 30576
           4,-16:
             1: 240
             0: 61440
@@ -10396,7 +10397,7 @@ entities:
             0: 255
             1: 49152
           4,-17:
-            8: 30576
+            9: 30576
           5,-20:
             0: 65535
           5,-19:
@@ -10418,7 +10419,7 @@ entities:
             1: 4096
           6,-21:
             0: 30498
-            9: 4
+            10: 4
           6,-17:
             0: 17476
           6,-16:
@@ -10468,7 +10469,7 @@ entities:
             3: 76
           -3,-19:
             0: 18423
-            9: 12288
+            10: 12288
           -3,-18:
             0: 65520
           -3,-21:
@@ -10923,6 +10924,11 @@ entities:
           temperature: 293.15
           moles:
             Plasma: 6666.982
+        - volume: 2500
+          temperature: 293.15
+          moles:
+            Oxygen: 21.6852
+            Nitrogen: 81.57766
         - volume: 2500
           temperature: 293.15
           moles:
@@ -22215,21 +22221,6 @@ entities:
     - type: Transform
       pos: 74.27338,-18.287746
       parent: 8364
-  - uid: 29053
-    components:
-    - type: Transform
-      pos: 43.761585,-2.423965
-      parent: 8364
-  - uid: 29054
-    components:
-    - type: Transform
-      pos: 44.49075,-2.4031315
-      parent: 8364
-  - uid: 29055
-    components:
-    - type: Transform
-      pos: 45.324085,-2.3822982
-      parent: 8364
 - proto: Bed
   entities:
   - uid: 70
@@ -23073,19 +23064,47 @@ entities:
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
-      pos: 44.855335,-2.4475527
+      pos: 44.945206,-2.4257622
       parent: 8364
   - uid: 29057
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
-      pos: 44.0845,-2.437136
+      pos: 44.217964,-2.4257622
       parent: 8364
   - uid: 29058
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
-      pos: 45.67825,-2.4267192
+      pos: 45.71597,-2.4153457
+      parent: 8364
+- proto: BottomlessDiethylamine
+  entities:
+  - uid: 29055
+    components:
+    - type: Transform
+      pos: 43.905464,-2.311179
+      parent: 8364
+- proto: BottomlessRobustHarvest
+  entities:
+  - uid: 29066
+    components:
+    - type: Transform
+      pos: 41.53274,-6.334117
+      parent: 8364
+- proto: BottomlessSedin
+  entities:
+  - uid: 29054
+    components:
+    - type: Transform
+      pos: 44.592964,-2.3215957
+      parent: 8364
+- proto: BottomlessUnstableMutagen
+  entities:
+  - uid: 29053
+    components:
+    - type: Transform
+      pos: 45.382706,-2.311179
       parent: 8364
 - proto: BoxBeaker
   entities:
@@ -91962,6 +91981,57 @@ entities:
       tags: []
     - type: RefillableSolution
       solution: food
+- proto: FoodDough
+  entities:
+  - uid: 29059
+    components:
+    - type: Transform
+      parent: 8156
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 29060
+    components:
+    - type: Transform
+      parent: 8156
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 29061
+    components:
+    - type: Transform
+      parent: 8156
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 29062
+    components:
+    - type: Transform
+      parent: 8156
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 29063
+    components:
+    - type: Transform
+      parent: 8156
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 29064
+    components:
+    - type: Transform
+      parent: 8156
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
+  - uid: 29065
+    components:
+    - type: Transform
+      parent: 8156
+    - type: Physics
+      canCollide: False
+    - type: InsideEntityStorage
 - proto: FoodKebabSkewer
   entities:
   - uid: 21797
@@ -132106,7 +132176,7 @@ entities:
       pos: 10.5,-22.5
       parent: 8364
     - type: Door
-      secondsUntilStateChange: -11026.05
+      secondsUntilStateChange: -11468.566
       state: Closing
   - uid: 8899
     components:
@@ -133484,14 +133554,31 @@ entities:
     - type: Transform
       pos: 37.5,-4.5
       parent: 8364
+    - type: ContainerContainer
+      containers:
+        entity_storage: !type:Container
+          showEnts: False
+          occludes: True
+          ents:
+          - 29059
+          - 29060
+          - 29061
+          - 29062
+          - 29063
+          - 29064
+          - 29065
+        paper_label: !type:ContainerSlot
+          showEnts: False
+          occludes: True
+          ent: null
     - type: EntityStorage
       air:
         volume: 200
         immutable: False
         temperature: 293.14673
         moles:
-          Oxygen: 1.7459903
-          Nitrogen: 6.568249
+          Oxygen: 1.8856695
+          Nitrogen: 7.0937095
     - type: Pullable
       prevFixedRotation: True
   - uid: 8196
@@ -134248,11 +134335,15 @@ entities:
     - type: Transform
       pos: 80.5,-29.5
       parent: 8364
+    - type: Godmode
+      oldDamage: {}
   - uid: 21199
     components:
     - type: Transform
       pos: 71.5,-40.5
       parent: 8364
+    - type: Godmode
+      oldDamage: {}
 - proto: MachineCentrifuge
   entities:
   - uid: 16828
@@ -182964,6 +183055,14 @@ entities:
     - type: Transform
       rot: 3.141592653589793 rad
       pos: -11.5,47.5
+      parent: 8364
+- proto: WeaponCrusherGlaive
+  entities:
+  - uid: 29067
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -28.5212,-33.004234
       parent: 8364
 - proto: WeaponDisablerPractice
   entities:
