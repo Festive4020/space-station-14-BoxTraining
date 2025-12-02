@@ -4,7 +4,7 @@ meta:
   engineVersion: 268.0.0
   forkId: ""
   forkVersion: ""
-  time: 12/01/2025 04:07:59
+  time: 12/01/2025 04:43:37
   entityCount: 29067
 maps:
 - 780
@@ -132176,7 +132176,7 @@ entities:
       pos: 10.5,-22.5
       parent: 8364
     - type: Door
-      secondsUntilStateChange: -11468.566
+      secondsUntilStateChange: -11733.552
       state: Closing
   - uid: 8899
     components:
@@ -155451,7 +155451,7 @@ entities:
   - uid: 29039
     components:
     - type: Transform
-      pos: 6.5,-17.5
+      pos: 11.5,-47.5
       parent: 8364
 - proto: SpawnPointCargoTechnician
   entities:
