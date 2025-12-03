@@ -28,36 +28,36 @@
   id: CaptainUberGear
   equipment:
     shoes: ClothingShoesBootsLaceup
-    eyes: ClothingEyesGlassesChemical
+    eyes: ClothingEyesEyepatchHudBeer
     mask: ClothingMaskGasCaptain
     gloves: ClothingHandsGlovesCaptain
     id: CaptainUberPDA
     ears: ClothingHeadsetAltCommand
-    belt: ClothingBeltChiefEngineerFilled
+    belt: ChemBag
     suitstorage: JetpackUltraCaptainUberFilled
     pocket1: PowerCellMicroreactor
     pocket2: GasAnalyzer
   storage:
     back:
-    - HandheldHealthAnalyzer
-    - NodeScanner
-    - HandHeldMassScanner
-    - MineralScanner
-    - ForensicScanner
-    - ClothingEyesGlassesThermal
-    - SprayPainterBorg
-    - UniversalIDCard
-    - ClothingShoesBootsLaceup
-    - Flash
-    - DrinkFlask
-    - PowerCellMicroreactor
+    - HandheldHealthAnalyzerUnpowered
     - PowerDrill
     - JawsOfLife
     - WelderExperimental
     - Multitool
     - HolofanProjector
     - GasAnalyzer
+    - HandHeldMassScanner
     - trayScanner
+    - NodeScanner
+    - AdvancedMineralScannerUnpowered
+    - ForensicScanner
+    - SprayPainterBorqg
+    - AppraisalTool
+    - ClothingEyesHudMultiversal
+    - DrinkFlask
+    - Flash
+    - PowerCellMicroreactor
+    - UniversalIDCard
     # - StationCharter
 
 - type: chameleonOutfit
