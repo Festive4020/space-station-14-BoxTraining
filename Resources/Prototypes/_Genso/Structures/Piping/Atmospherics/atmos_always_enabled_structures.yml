@@ -1,0 +1,10 @@
+﻿- type: entity
+  parent: GasVolumePump
+  id: GasVolumePumpTEG
+  name: volumetric gas pump teg
+  description: A pump that moves gas by volume.
+  placement:
+    mode: AlignAtmosPipeLayers
+  components:
+  - type: ApcPowerReceiver
+    powerDisabled: false
