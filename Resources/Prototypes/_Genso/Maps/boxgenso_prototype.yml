@@ -1,8 +1,9 @@
 - type: gameMap
   id: boxgenso
   mapName: 'Box Genso Station'
-  mapPath: /Prototypes/_Genso/Maps/boxgenso.yml
+  mapPath: /Maps/boxgenso.yml
   minPlayers: 1
+  maxPlayers: 80
   stations:
     boxgenso:
       stationProto: StandardNanotrasenStation
@@ -15,7 +16,7 @@
       - type: StationEmergencyShuttle
         emergencyShuttlePath: /Maps/Shuttles/emergency_box.yml
       - type: StationCargoShuttle
-        Path: /Prototypes/_Genso/Maps/Shuttles/cargo_box_genso.yml
+        path: /Maps/Shuttles/cargo_box_genso.yml
       - type: StationJobs
         availableJobs: # 63 jobs total w/o latejoins & interns, 82 jobs total w/ latejoins & interns
           #Command (8)
