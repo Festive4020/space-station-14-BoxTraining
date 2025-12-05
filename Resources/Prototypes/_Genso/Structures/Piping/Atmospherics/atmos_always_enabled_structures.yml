@@ -6,7 +6,7 @@
   suffix: Enabled
   components:
   - type: ApcPowerReceiver #I believe this type is the one that sets the powered state to on at round start.
-    powerDisabled: false #Same ^
+    powerDisabled: false #and yet for some reason, this setting here does nothing?
 
 - type: entity
   parent: GasVolumePump
